@@ -78,7 +78,7 @@ text-decoration-color: #FBF46D;
 .card .card-img-overlay {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex;
 }
 
 .card .card-img-overlay h5 {
