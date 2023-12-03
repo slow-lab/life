@@ -84,7 +84,7 @@ margin-top:40px;
 }
 
 h4 {
-font-size: 16px;
+font-size: 15px;
 font-weight:lighter;
 color: grey
 
@@ -146,4 +146,12 @@ hr {
 
   * {
     border-radius: 0%;
+  }
+
+  .btn-primary,
+  .btn-primary:hover,
+  .btn-primary:active,
+  .btn-primary:visited
+  {
+      background-color: #FBF46D;
   }
