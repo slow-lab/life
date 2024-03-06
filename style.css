@@ -7,7 +7,7 @@
 }
 
 
-a {
+a[href*="mailto"] {
   text-decoration: underline;
   text-decoration-color: #FBF46D;
   color: black
