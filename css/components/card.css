@@ -1,0 +1,63 @@
+.card .card-img-overlay {
+  display: flex;
+  align-items: center;
+  justify-content: flex;
+}
+  
+.card .card-img-overlay h5 {
+  font-size: 20px;
+  color: white;
+  background-color: #998CEB;
+  text-decoration: none;
+}
+
+.card-project {
+    
+}
+
+/*slow*/
+
+.cards {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap:16px;
+}
+
+@media (max-width: 992px) {
+  .cards {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cards {
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-gap:16px;
+  }
+}
+  
+
+.card-slow {
+  border-radius:2px;
+  border: 1px solid black;
+  background-color: white;
+  height: 380px;
+}
+.card-slow-content {
+  padding:16px;
+  border-top: 1px solid black;
+}
+
+.card-slow > img {
+  height:200px;
+  width: 100%;
+  object-fit: cover;
+  object-position:center;
+}
+
+.card-slow-content h5,p {
+  margin:0;
+}

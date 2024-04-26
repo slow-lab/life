@@ -1,11 +1,26 @@
-/* style.css by Slow lab */
+/* --- style.css by Slow lab --- */
 
+/* --- components design --- */
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/card.css");
+
+
+/* --- fonts & colors --- */
 * {
   /*font-family: "Trebuchet MS","Sans Serif";*/
-  font-family: "Trebuchet MS","Sans Serif";
-  font-size: 15px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
 }
 
+body {
+  background-color: white;
+  margin:0;
+}
+
+#project {
+  background-color: #998ceb2c !important;
+}
 
 a[href*="mailto"] {
   text-decoration: underline;
@@ -13,9 +28,14 @@ a[href*="mailto"] {
   color: black
 }
 
-body {
-  background-color: white;
-  margin:0;
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
 }
 
 footer {
@@ -26,9 +46,7 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-
 }
-
 
 .navbar {
   width: 100%;
@@ -63,7 +81,7 @@ footer {
 }
 
 .dropdown-toggle::after {
-    content: none;
+  content: none;
 }
 
 .dropdown-item:active {
@@ -71,8 +89,9 @@ footer {
 
 }
 
-
-
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Trebuchet MS","Sans Serif";
+}
 
 h1 {
   font-size: 50px;
@@ -103,21 +122,6 @@ font-size: 20px;
 font-weight:lighter;
 text-decoration: underline;
 text-decoration-color: #FBF46D;
-}
-
-.card .card-img-overlay {
-  display: flex;
-  align-items: center;
-  justify-content: flex;
-}
-
-.card .card-img-overlay h5 {
-  font-size: 20px;
-  color: white;
-  background-color: #998CEB;
-  text-decoration: none;
-
-
 }
 
 strong {
@@ -163,3 +167,5 @@ hr {
   {
       background-color: #FBF46D;
   }
+
+
