@@ -11,9 +11,6 @@
   text-decoration: none;
 }
 
-.card-project {
-    
-}
 
 /*slow*/
 
@@ -41,23 +38,42 @@
   
 
 .card-slow {
-  border-radius:2px;
-  border: 1px solid black;
+  border-radius:10px;
+  /*border: 3px solid rgba(0, 0, 0, 0.66);*/
+  border: 3px solid #998CEB;
   background-color: white;
-  height: 380px;
+  min-height: 380px;
 }
 .card-slow-content {
-  padding:16px;
-  border-top: 1px solid black;
+  padding:0 16px;
+  margin:0;
+  /* border-top: 1px solid black;*/
 }
 
-.card-slow > img {
-  height:200px;
+.card-slow img {
+  height: 65%;
   width: 100%;
   object-fit: cover;
   object-position:center;
+  padding: 16px;
 }
 
 .card-slow-content h5,p {
   margin:0;
+}
+
+/*artefacts*/
+.card-artefacts {
+  border-radius:2px;
+  border: 2px solid rgba(0, 0, 0, 0.66);
+  background-color: white;
+  height: 380px;
+} 
+
+.card-artefacts > img {
+  height: 65%;
+  width: 100%;
+  object-fit: cover;
+  object-position:center;
+  padding: 16px;
 }
