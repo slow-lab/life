@@ -26,6 +26,11 @@ body {
   background-color: #998ceb2c !important;
 }
 
+#about {
+  background-color: #FBF46D2c !important;
+
+}
+
 a[href*="mailto"] {
   text-decoration: underline;
   text-decoration-color: #FBF46D;
