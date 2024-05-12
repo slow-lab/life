@@ -18,9 +18,11 @@
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap:16px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 800px) {
   .cards {
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -28,7 +30,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 580px) {
   .cards {
     display:grid;
     grid-template-columns: 1fr;
@@ -82,6 +84,7 @@
 .card-team {
   margin-left: auto;
   margin-right: auto;
+  margin: auto;
 }
 
 .card-team-content {
@@ -95,11 +98,7 @@
 }
 
 .card-team img {
-  height: 50%;
+  height: auto;
   width: 100%;
   object-position:center;
-}
-
-.teamgrid {
-  margin:40px;
 }
