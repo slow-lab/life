@@ -80,17 +80,26 @@
 
 /*Card Team*/
 .card-team {
-  padding:0 16px;
   margin-left: auto;
-  margin-right: auto
+  margin-right: auto;
 }
 
 .card-team-content {
   margin-left: auto;
-  margin-right: auto
+  margin-right: auto;
 }
 
 .card-team-content h5,p {
   margin:0;
   text-align: center;
+}
+
+.card-team img {
+  height: 50%;
+  width: 100%;
+  object-position:center;
+}
+
+.teamgrid {
+  margin:40px;
 }
