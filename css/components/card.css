@@ -60,7 +60,7 @@
   padding: 16px;
 }
 
-.card-slow-content h5,p {
+.card-slow-content h4,h5,p {
   margin:0;
 }
 
@@ -92,7 +92,7 @@
   margin-right: auto;
 }
 
-.card-team-content h5,p {
+.card-team-content h4,h5,p {
   margin:0;
   text-align: center;
 }
