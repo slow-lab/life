@@ -40,8 +40,9 @@
 
 .card-slow {
   border-radius:20px;
-  /*border: 3px solid rgba(0, 0, 0, 0.66);*/
-  border: 3px solid #998CEB;
+  /* border: 3px solid #FBF46D; */
+  /* border: 2px solid rgba(0, 0, 0, 0.66); */
+  border: 3px solid #998ceba1;
   background-color: white;
   min-height: 380px;
 }
@@ -54,26 +55,27 @@
 
 .card-slow img {
   height: 65%;
+  max-height: 300px;
   width: 100%;
   object-fit: cover;
   object-position:center;
   padding: 16px;
 }
 
-.card-slow-content h4,h5,p {
+.card-slow-content (h4,h5,p) {
   margin:0;
 }
 
 /*artefacts*/
 .card-artefacts {
-  border-radius:2px;
-  border: 2px solid rgba(0, 0, 0, 0.66);
+  border-radius:10px;
+  border: 2px solid #b3fe98;
   background-color: white;
-  height: 380px;
+  max-height: 350px;
 } 
 
 .card-artefacts > img {
-  height: 65%;
+  height: 80%;
   width: 100%;
   object-fit: cover;
   object-position:center;

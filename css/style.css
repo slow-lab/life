@@ -23,7 +23,7 @@ body {
 }
 
 #artefact {
-  background-color: #998ceb2c !important;
+  background-color: #b3fe982c !important;
 }
 
 #about {
@@ -119,14 +119,6 @@ text-decoration-color: #FBF46D;
 margin-top:40px;
 }
 
-h3.project {
-  font-size: 40px;
-  font-weight: light;
-  text-decoration: underline;
-  text-decoration-color: #998CEB;
-  margin-top:40px;
-  }
-
 h4 {
 font-size: 15px;
 font-weight:lighter;
@@ -141,6 +133,14 @@ text-decoration: underline;
 text-decoration-color: #FBF46D;
 }
 
+#project h3, #project h5 {
+  text-decoration-color: #998CEB;
+}
+
+#artefact h5, #artefact h3 {
+  text-decoration-color: #b3fe98;
+}
+
 strong {
   font-style: normal;
   font-weight: bold;
@@ -150,10 +150,6 @@ em{
   font-style: normal;
   font-weight: light;
   color: #9B9B9B;
-}
-
-.bg-pink {
-  background-color: #EF489E;
 }
 
 
@@ -184,5 +180,3 @@ hr {
   {
       background-color: #FBF46D;
   }
-
-
