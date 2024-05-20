@@ -9,11 +9,11 @@
     crossorigin="anonymous">
   <link rel="stylesheet" href="../../css/style.css" />
 
-    <title>slow artefactos</title>
+    <title>slow artifactes</title>
     <link rel="shortcut icon" type="image/x-icon" href="../../about/images/sunglasses.png" />
 </head>
 
-<body>
+<body id="artefact">
     <div class="container">
       <div class="row">
         <nav class="col navbar navbar-expand-lg navbar-light">
@@ -22,109 +22,89 @@
              <span class="navbar-toggler-icon"></span>
            </button>
            <div id="navbarContent" class="collapse navbar-collapse">
-             <ul class="navbar-nav ml-auto align-items-end">
-                <li class="nav-item"><a class="nav-link active" href="../about.html">qui som</a></li>
-                <li class="nav-item"><a class="nav-link active" href="../projects/projects.html">projectes</a></li>
-                <li class="nav-item"><a class="nav-link active" href="artifacts.html">artefactes</a></li>
-                <li class="nav-item"><a class="nav-link active" href="../../slowshop/slowshop.html">shop</a></li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <img src="../../about/images/globe2.svg" alt="language">
-                  </a>
-                  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="../../artifacts/artifacts.html">EN</a>
-                    <a class="dropdown-item" href="../../es/artifacts/artifacts.html">ES</a>
-                    <a class="dropdown-item" href="artifacts.html">CAT</a>
+            <ul class="navbar-nav ml-auto align-items-end">
+              <li class="nav-item"><a class="nav-link active" href="../about.html">qui som</a></li>
+              <li class="nav-item"><a class="nav-link active" href="../projects/projects.html">projectes</a></li>
+              <li class="nav-item"><a class="nav-link active" href="artifacts.html">artefactes</a></li>
+              <li class="nav-item"><a class="nav-link active" href="../../slowshop/slowshop.html">shop</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <img src="../../about/images/globe2.svg" alt="language">
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="../../artifacts/artifacts.html">EN</a>
+                  <a class="dropdown-item" href="../../es/artifacts/artifacts.html">ES</a>
+                  <a class="dropdown-item" href="artifacts.html">CAT</a>
 
-                  </div>
-                </li>
-             </ul>
+                </div>
+              </li>
+           </ul>
            </div>
         </nav>
       </div>
     </div>
 
+<!-- Artefacts cards -->
 <div class="container">
 <div class="row">
   <div class="col-12">
     <br>
-    <h3>artefactes</h3>
+    <h3>artifactes</h3>
     <br>
   </div>
 </div>
 
-  <div class="row row-cols-2 row-cols-md-3 g-4">
-  <br>
-    <div class="col mb-3">
-      <div class="card h-100 border-0">
-        <img src="../../artifacts/solar-oven/images/oven.png" class="card-img-top" alt="Slow lab solar oven" />
-        <div class="card-body">
-           <div class="card-img-overlay">
-          <h5 class="card-title">forns solars</h5>
-          <p class="card-text"> </p>
-        </div>
-        </div>
-      </div>
+<div class="cards">
+<!-- Solar oven -->
+  <div class="card-artefacts">
+    <img src="../../artifacts/solar-oven/images/oven.png" alt="solar oven">
+    <div class="card-slow-content">
+      <h5>forns solars</h5>
     </div>
-
-    <div class="col mb-3">
-      <div class="card h-100 border-0">
-        <img src="../../artifacts/fireless-cooker/images/stool.png" class="card-img-top" alt="Slow lab fireless cooker" />
-        <div class="card-body">
-          <div class="card-img-overlay">
-          <h5 class="card-title">caixa calenta</h5>
-          <p class="card-text"> </p>
-        </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="col mb-3">
-      <div class="card h-100 border-0">
-        <img src="../../artifacts/dehydrator/images/dehydrator.png" class="card-img-top" alt="Slow lab dehydratorr" />
-        <div class="card-body">
-          <div class="card-img-overlay">
-          <h5 class="card-title">deshidratador solar</h5>
-          <p class="card-text"> </p>
-        </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="col mb-3">
-      <div class="card h-100 border-0">
-        <img src="../../artifacts/bike-generator/images/bikegenerator.png" class="card-img-top" alt="Slow bike generator" />
-        <div class="card-body">
-          <div class="card-img-overlay">
-          <h5 class="card-title">bicigeneradora</h5>
-          <p class="card-text"> </p>
-        </div>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="col mb-3">
-      <div class="card h-100 border-0">
-        <img src="../../artifacts/music-station/images/solarmusicstation.png" class="card-img-top" alt="Slow music station" />
-        <div class="card-body">
-          <div class="card-img-overlay">
-          <h5 class="card-title">estació de música solar i humana</h5>
-          <p class="card-text"> </p>
-        </div>
-        </div>
-      </div>
-    </div>
-
-
   </div>
+
+<!-- Fireless cooker -->
+  <div class="card-artefacts">
+    <img src="../../artifacts/fireless-cooker/images/stool.png" alt="Slow lab fireless cooker">
+    <div class="card-slow-content">
+      <h5>caixa calenta</h5>
+    </div>
+  </div>
+
+<!-- Solar dehydrator -->
+  <div class="card-artefacts">
+    <img src="../../artifacts/dehydrator/images/dehydrator.png" alt="Slow lab solar dehydrator">
+    <div class="card-slow-content">
+      <h5>deshidratador solar</h5>
+    </div>
+  </div>
+
+<!-- Bike generator -->
+  <div class="card-artefacts">
+    <img src="../../artifacts/bike-generator/images/bikegenerator.png" alt="Slow bike generator">
+    <div class="card-slow-content">
+      <h5>bicigeneradora</h5>
+    </div>
+  </div>
+
+<!-- Solar music -->
+  <div class="card-artefacts">
+    <img src="../../artifacts/music-station/images/solarmusicstation.png" alt="Slow music station">
+      <div class="card-slow-content">
+        <h5>estació de música solar i humana</h5>
+      </div>
+  </div>
+
+</div>
+
+</div>
 </div>
 
 <br><br>
 <br><br>
 
   <footer>
-  <a href="https://www.instagram.com/slowlab.bcn/"><img src="../../about/images/instagram.png"></a>
+  <a href="https://www.instagram.com/slowlab.bcn/"><img src="../about/images/instagram.png"></a>
   </footer>
 
 
