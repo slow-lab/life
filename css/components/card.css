@@ -95,7 +95,7 @@
   margin-right: auto;
 }
 
-.card-team-content h4,h5,p {
+.card-team-content h4,.card-team-content h5, .card-team-content p {
   margin:0;
   text-align: center;
 }
