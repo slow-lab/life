@@ -180,3 +180,9 @@ hr {
   {
       background-color: #FBF46D;
   }
+
+  iframe {
+    aspect-ratio: 16 / 9;
+    height: 100%;
+    width: 100%;
+  }
