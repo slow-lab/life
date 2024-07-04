@@ -56,6 +56,9 @@ a:hover {
   text-underline-offset: 2px;
 }
 
+
+
+
 footer {
   text-align: center;
   padding: 2px;
@@ -161,6 +164,9 @@ em{
   color: #9B9B9B;
 }
 
+.credits em {
+  font-size: 12px;
+}
 
 .bg-yellow {
   background-color: #B4FE98;
