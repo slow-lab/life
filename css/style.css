@@ -47,6 +47,15 @@ a:hover {
   color: black;
 }
 
+.project a {
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  text-decoration-thickness: 1px;
+  text-decoration-color: #626070;
+  color: inherit;
+  text-underline-offset: 2px;
+}
+
 footer {
   text-align: center;
   padding: 2px;
