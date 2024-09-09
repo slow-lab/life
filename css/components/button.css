@@ -3,7 +3,7 @@
     color: white;
     border-radius: 2px;
     padding: 8px 24px;
-    text-decoration:none;
+    text-decoration:none !important;
 }
 
 .btn-lilas:hover {
@@ -17,6 +17,7 @@
     border-radius: 60px;
     border: 2px solid #998CEB;
     padding: 8px 32px;
+    text-decoration:none !important;
   }
   
 .btn-lilas-transp:hover {
